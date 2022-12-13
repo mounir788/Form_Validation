@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Regitster</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="img">
+        <img src="images/Image Placeholder (1).png" alt="img" />
+      </div>
+      <div class="content">
+        <h1 class="register-title">Create Account</h1>
+        <p>Go ahead and sign up, let everyone know how awesome you are!</p>
+        <form id="form">
+          <div class="input-row">
+            <div class="icon">
+              <img src="images/User.png" alt="userIcon" />
+            </div>
+            <input
+              type="text"
+              name="username"
+              placeholder="Username"
+              id="username"
+              minlength="5"
+              required
+              maxlength="15"
+            />
+          </div>
+          <div class="input-row">
+            <div class="icon">
+              <img src="images/EnvelopeSimple.png" alt="userIcon" />
+            </div>
+            <input type="email" name="email" placeholder="Email" id="email" required/>
+          </div>
+          <div class="input-row">
+            <div class="icon">
+              <img src="images/LockKey.png" alt="userIcon" />
+            </div>
+            <input
+              type="password"
+              name="password"
+              placeholder="Password"
+              id="password"
+              required
+              minLength="8"
+            />
+          </div>
+          <div class="input-row">
+            <div class="icon">
+              <img src="images/LockKey.png" alt="userIcon" />
+            </div>
+            <input
+              type="password"
+              name="confirmPassword"
+              placeholder="Confirm password"
+              id="confirm-password"
+            />
+          </div>
+          <button type="submit" class="btn" id="submit">Creat account</button>
+        </form>
+      </div>
+    </div>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
